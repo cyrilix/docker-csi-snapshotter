@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM golang:1.15-buster AS src
 
-ARG VERSION=v3.0.0
+ARG VERSION=v3.0.1
 ARG BUILDPLATFORM
 
 RUN git clone https://github.com/kubernetes-csi/external-snapshotter.git  /go/src/external-snapshotter
